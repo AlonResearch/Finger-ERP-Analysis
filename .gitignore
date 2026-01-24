@@ -1,0 +1,5 @@
+__pycache__/
+*.py[oc]
+.venv/
+brain_data_channel_one.csv
+events_file_ordered.csv
