@@ -17,7 +17,7 @@ Placement rules: the script will look for each CSV in this folder, its parent fo
 Python 3.10+ with the following packages: `pandas`, `numpy`, `matplotlib`. Install with:
 
 ```bash
-pip install -r finger_erp_analysis/requirements.txt
+pip install -r requirements.txt
 ```
 
 Or directly:
@@ -30,7 +30,7 @@ pip install pandas numpy matplotlib
 From the repository root:
 
 ```bash
-python -m finger_erp_analysis.main
+python main.py
 ```
 
 This will compute the per-finger mean ERPs, display the plot, and print the ERP matrix shape.
